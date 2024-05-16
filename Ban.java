@@ -14,6 +14,9 @@ public class Ban extends Actor
      */
     public void act()
     {
-        // Add your action code here.
+        move(5);
+        if(isAtEdge()){
+            turn(7);
+        }
     }
 }
